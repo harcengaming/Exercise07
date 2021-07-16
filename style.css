@@ -1,0 +1,124 @@
+img {
+    border: solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 420px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+
+div {
+    display: flex;
+    
+    align-items: baseline;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: whitesmoke;
+}
+
+h1, h2 {
+    padding-top: 30px;
+    color:rgb(28, 80, 179);
+    padding-bottom: 30px;
+}
+
+textarea {
+    height: 200px;
+    width: 240px;
+}
+
+#left {
+    width: 30%;
+    float: left;
+}
+
+#right {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+form {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+#username {
+    width: 200px;
+    height: 30px;
+    margin-bottom:5px;
+}
+
+#password{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.konten7 {
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nomor7 {
+    color:cornflowerblue;
+    font-size: 40px;
+    padding-top: 15px;
+}
+
+
+#Submit7 {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color:cornflowerblue;
+    font-size: 14px;    
+    border: none;
+    color: white;    
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#name{
+    width: 200px;
+    height: 30px;
+    margin-bottom:5px;
+}
+
+#email {
+    width: 200px;
+    height: 30px;
+    margin-bottom:5px;
+}
+
+#message {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 150px;
+    margin-bottom:20px;
+}
+
+label{
+    color:black;
+    
+}
